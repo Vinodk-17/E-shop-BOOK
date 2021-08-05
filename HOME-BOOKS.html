@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+   
+
+body{
+     
+     background-color: rgb(198 198 198);
+}
+
+/* ******************navtar************ */
+
+.navtar{
+    display: flex;
+    height: 60px;
+    /* background-color: black; */
+    align-items: center;   
+    position: sticky;
+    top: 0px;
+
+}
+.navtar::before{
+    content: "";
+    /* background-color: Black; */
+    /* background-color: white; */
+    background-color: #232B38;
+
+    
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.navtar ul{
+    display: flex;
+    /* padding: 2px; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navtar ul li{
+    /* display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    font-size: 18px; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navtar ul li a{
+    color: white;
+    /* color: black; */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navtar ul li a:hover{
+    color: black;
+    /* color: white; */
+    background-color: white;
+    /* background-color: black; */
+}
+
+
+
+/* **********************navbar**************** */
+
+.navbar{
+    display: flex;
+    /* height: 100px; */
+    /* background-color: black; */
+    align-items: center;   
+    position: sticky;
+    margin-top: 0px;
+}
+
+
+
+.navbar::before{
+    content: "";
+    /* background-color: Black; */
+    /* background-color: white; */
+    background-color: #232B38;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+.logo img{
+    height: 100px;
+   
+}
+
+
+.navbar ul{
+    display: flex;
+    /* padding: 2px; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.navbar ul li{
+    /* display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    font-size: 18px; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navbar ul li a{
+    color: white;
+    /* color: black; */
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    /* color: white; */
+    background-color: white;
+    /* background-color: black; */
+}
+/* *************************iframe**************** */
+.container1{
+           margin:0 auto;
+           height: 500px;
+           width: 1200px;
+           border: 1px white;
+           border-radius: 15px;
+       }
+       
+iframe{ 
+    height: 500px;
+       width: 1200px; 
+      
+       border-radius: 15px; 
+      
+        } 
+
+      a{
+          text-decoration: none;
+         }
+    
+/* *****************books*************** */
+.conter{
+    
+    display: flex;
+    height: 488px;
+    /* border: 1px solid black;
+    padding: 2rem; */
+    justify-content : space-evenly;
+
+} 
+
+.conter div{
+  background-color:ghostwhite;
+  
+  padding: 1.6rem;
+  width: 20%;
+  
+}
+
+.line{
+  text-decoration: none;
+}
+.buynow{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px 15px;
+  border: 2px solid white;
+  background-color:  rgb(66, 66, 92);
+  opacity: inherit;
+  color: white;
+  margin: 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+a{
+  text-decoration: none;
+  
+}
+.buynow:hover{
+  color: rgb(255, 251, 251);
+  background-color: rgb(18, 7, 32);
+  border:rgb(27, 14, 27)
+}
+
+.buynow:active{
+  background-color: rgb(10, 9, 10);
+}
+
+/* *******************backgroundimage*************** */
+/* 
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px ;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(img/books.jpg) no-repeat center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+} */
+
+/* Banner */
+
+.banner{
+   
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.banner img{
+    width: 1520px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    /* text-align: center; */
+    color: white;  
+    opacity: 1;
+}
+
+.world_best{
+    font-size: 43px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+  }
+
+  .world_best p{
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    color: #2D333F;
+  }
+/* **********************conaiter****** */
+  .common{
+    
+    display: flex;
+    height: 488px;
+    /* border: 1px solid black;
+    padding: 2rem; */
+    justify-content : space-evenly;
+    
+} 
+
+.common div{
+  background-color:ghostwhite;
+  margin: 15px;
+  padding: 1.6rem;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.line{
+  text-decoration: none;
+}
+.buynow{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px 15px;
+  border: 2px solid white;
+  background-color:  rgb(66, 66, 92);
+  opacity: inherit;
+  color: white;
+  margin: 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+  
+   </style>
+</head>
+<body>
+
+<!-- *************************main CODE****************** -->
+
+<!-- ********************navbar******************** -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="img/lgo.png" alt="">
+    </div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Electronics</a></li>
+        <li><a href="HOME-BOOKS.html">Book</a></li>
+        <li><a href="">Grocery</a></li>
+        <li><a href="">Food</a></li>
+    </ul>
+</nav>
+
+
+<!-- ******************backgroundimage************** -->
+<!-- <section id="home">
+    <h1 class="h-primary">Welcome</h1>
+    <p>What do you prefer to eat?</p>
+    <a href="bbpd.html"><button class="btn"> Order Now </button></a>
+</section> -->
+<div class="banner">
+    <img src="img/books.jpg" alt="">
+    <div class="world_best">
+        <p>Welcome to,</p>
+        <span class="world">The World Best Shopping Website</span> <br><br>
+        <p><b style="color:black;font-size: 25px;">E-shop</b> is the world most trusted E-commerce Website <P>to buy Books and other Product</P></p>
+    </div>
+</div> 
+<!-- *******************category navbar***************** -->
+<nav class="navtar">
+    
+    <ul>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a href="EXAM.HTML">* Exam</a></li>&nbsp;
+        <li><a href="fictionmain.HTML">* Fiction</a></li>&nbsp;
+        <li><a href="Bussiness.html">* Business</a></li>&nbsp;
+        <li><a href="Non-Fantasy.html">* Non-Fantasy</a></li>
+    </ul>
+</nav>
+
+
+<!-- ************iframe*********** -->
+
+<br><br>
+<div class="container1">
+                
+    <iframe src="https://source.unsplash.com/1200x500/?books " frameborder="0"  name="abcd"></iframe>
+    </div>
+    
+<br>
+
+<center><a href="https://source.unsplash.com/1200x500/?books" target="abcd">
+<span><b >*</b></span> &nbsp;
+<span><b>*</b></span>&nbsp;
+<span><b>*</b></span>&nbsp;
+<span><b>*</b></span>&nbsp;
+</a></center>
+<br>
+<br>
+ <!-- *******************title******************* -->
+ <CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 300px; padding: 5px;border-radius: 15px;">-----TOP PRODUCT-----</h1></CENTER>
+ <br>
+ <br>
+ <!-- **************cotainer************ -->
+ <div class="common">
+    
+        
+        <div class="item1"><center><img src="img/FAN1.jpeg" width="200" height="300"></center>
+            <p><b>Harry Potter and the Prisoner of Azkaban</b></p>
+            <p><b>J.K. Rowling (Author)</b></p>
+              <BR>
+               
+                <span><b>	&#8377; 499 </b></span>   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.amazon.in/dp/B07YLPPZ4T?tag=kp-mob-price-in-india-21&linkCode=ogi&th=1&psc=1&SubscriptionId=AKIAJZ7ZVEW7WHEFIMWA&ascsubtag=69735660"><span class="buynow"> <b>BUY NOW</b></span></a>
+  </div>
+  <div class="item1"><center><img src="img/H1.webp" width="200" height="300"></center>
+    <p><b>And the Roses Bled </b></p>
+    <p><b>by Mehak Daleh (Author)</b></p>
+      <br><br>
+       
+        <span><b>	&#8377; 199 </b></span>    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.amazon.in/Roses-Bled-Mehak-Daleh/dp/9388144074/ref=sr_1_2_sspa?dchild=1&keywords=horror+books&qid=1627839563&sr=8-2-spons&psc=1&"><span class="buynow"> <b>BUY NOW</b></span></a>
+</div>
+  
+        <div class="item1"><center><img src= "img/FAN3.webp" width="200" height="300"></center><p><b>The Oath of the Vayuputras: Shiva Trilogy  </b>
+          </p>
+           <p><B>by Amish Tripathi (Author)</B></p>
+           <br>
+         <span><b>&#8377; 238</b></span>
+           &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.snapdeal.com/product/oath-of-vayuputras/673467455319#bcrumbSearch:fantasy%20book"><span class="buynow"> <b>BUY NOW</b></span></a>
+      </div>
+  
+  
+        <div class="item1"><center><img src= "img/FAN4.jpg" width="200" height="300"></center><p><b>The Creature on the Moonlit Road: More Stories of the Supernatural</b> </p>
+            
+           <p><b>by James (Author)</b></p>
+           <br>
+         <span><b>&#8377; 250 </b>
+         </span>   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+         <a href="https://www.snapdeal.com/product/the-creature-on-the-moonlit/663371849615"> <span class="buynow"> <b>BUY NOW</b></span></a>
+        </div>
+        
+    </diV>
+<BR>
+ </div>
+
+
+ <!-- ************************our-services************* -->
+
+ <section class="our-services">
+    <div class="container">
+        <CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 300px; padding: 5px;border-radius: 15px;">----Our Services-----</h1></CENTER>
+        
+        <div class="card-wrapper flex">
+            <div class="service-card magic-shadow-sm">
+                <img src="./icons/transport.svg" alt="">
+                <h2>Free Home delivery</h2>
+                <p>E-Shop is know for its services of free Delivery </p>
+                <button class="buynow">Read More</button>
+            </div>
+            <div class="service-card magic-shadow-sm">
+                <img  src="./icons/bag.svg" alt="">
+                <h2 >30 Days ReturnServices</h2>
+                <p>E-shop provides 30 days Return services.</p>
+                <button class="buynow">Read More</button>
+            </div>
+            <div class="service-card magic-shadow-sm">
+                <img  src="./icons/usd.svg" alt="">
+                <h2>Money Back Guaranted</h2>
+                <p>We offer Money Back Guaranty.</p>
+                <button class="buynow">Read More</button>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+<!-- *************************PUBLISHER********************************** -->
+
+<CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 300px; padding: 5px;border-radius: 15px;">----Featured Publisher-----</h1></CENTER>
+<br>
+<center><div style="border:1px rgb(227, 212, 228); height: 300px; width: 1200px;">
+
+    
+    <table >
+        <tr style="padding: 6px; margin: 20px;">
+            <td><img src="img/arihant.jpg"></td>
+            <td><img src="img/disha.jpg"></td>
+            <td><img src="img/wiley.jpg"></td>
+            <td><img src="img/schand.jpg"></td>
+        </tr>
+    <br><br>
+        <tr align="center" style="padding: 6px; margin: 20px;">
+            <td><h3>Arihant Publication India LTD.</h3> </td>
+            <td><h3>Disha Publication India LTD.</h3></td>
+            <td><h3>Wiley Publication India LTD.</3></td>
+            <td><h3>S.CHAND And Company LTD.</h3> </td>
+        </tr>
+    </table>
+    
+    </div>
+    </center>
+
+<!-- *********************contact us******************** -->
+<section class="contact-us flex">
+    <div class="contact-info-wrapper">
+        <CENTER><h1 style="font-size: 25px; background-color:rgb(49, 49, 107); color: white; font-weight: bold; width: 280px; padding: 5px;border-radius: 15px;">-----Contact Us-----</h1></CENTER>
+        <br>
+        <div class="contact-info">
+            <div>
+                <div>
+                    <img src="./icons/phone-2.svg" alt="">
+                    <div>
+                        <span>Call us:</span>
+                        <span>(+84) 123 456 789</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/bag-2.svg" alt="">
+                    <div>
+                        <span>E-mail ::</span>
+                        <span>support@E-shop.com</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="./icons/clock-2.svg" alt="">
+                    <div>
+                        <span>Working Hours:</span>
+                        <span>24 x 7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br>
+<!-- ************************footer****************** -->
+<footer>
+    <div class="container">
+        <div class="box">
+            <h3>About us</h3>
+            <p>E-shop is one of the oldest and most trusted e-commerce website for shopping
+                e-shop give lot of offer for different product on every Occation.  </p>
+            <button class="btn btn-secondary">Read More</button>
+        </div>
+        <div class="box">
+            <h3>Quik Links</h3>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <img src="./icons/facebook.svg" alt="">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <img src="./icons/twitter.svg" alt="">
+                            <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./icons/google.svg" alt="">
+                            <span>Google +</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com">
+                            <img src="./icons/instagram.svg" alt="">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box instagram-api">
+            <h3>Payment Via</h3>
+            <div class="post-wrap">
+                <div>
+                    <img src="img/paypal.jpeg" alt="">
+                </div>
+                <div>
+                    <img src="img/visa.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/mastercard.png" alt="">
+                </div>
+                
+                <div>
+                    <img src="img/rupay.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/upi.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/emi.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+        Copyright © 2021 . All Rights Reserved .
+    </div>
+</footer>
+</body>
+</html>
