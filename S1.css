@@ -9,7 +9,8 @@
 } 
 
 .container div{
-  background-color:ghostwhite;
+  /* background-color:ghostwhite; */
+  background-color: rgb(238, 235, 255);
   
   padding: 1.6rem;
   width: 20%;
